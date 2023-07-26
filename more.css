@@ -1,0 +1,56 @@
+.container {
+    padding-top: 40px;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.button {
+    box-shadow: 0 4px 4px darkslategrey;
+    padding: 30px;
+    padding-right: 50%;
+    padding-left: 30%;
+    font-size: 20px;
+    width: 66px;
+    margin: 0 10px;
+    border: 2px solid black;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.row {
+    margin: 8px 0;
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row input {
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+a {
+    padding-left: 900px;
+    text-decoration: none;
+    color: brown;
+    font-size: 30px;
+}
