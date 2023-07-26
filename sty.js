@@ -30,8 +30,21 @@ Array.from(buttons).forEach((button) => {
             string=eval(string);
             Ans=fact(string);
             document.querySelector('input').value=Ans;
+            string=Ans;
         }
-
+        else if(e.target.innerHTML=='In'){
+            string=eval(string);
+            Ans=Math.log(string);
+            document.querySelector('input').value=Ans;
+            string=Ans;
+        }
+        else if(e.target.innerHTML=='log'){
+            string=eval(string);
+            Ans=Math.log10(string);                                                                           
+            document.querySelector('input').value=Ans;
+            string=Ans;
+            
+        }
         else {
             if (e.target.innerHTML == 'BS') {
                 string = string.replace(string.charAt(string.length - 1), "");
